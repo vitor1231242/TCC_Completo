@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('user', JSON.stringify(user));
 
         alert('Usuário registrado com sucesso!');
-        window.location.href = 'index.html'; // Redireciona para a página de login após o registro
+        window.location.href = ''; // Redireciona para a página de login após o registro
     }
 
     /*=============== LOGIN FUNCTION ===============*/
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (user && user.email === email && user.password === password) {
             alert('Login bem-sucedido!');
-            window.location.href = 'TCC - 4TI/index.html'; // Redireciona para uma página de boas-vindas após o login bem-sucedido
+            window.location.href = 'vitor1231242/TCC_Completo/botao.html'; // Redireciona para uma página de boas-vindas após o login bem-sucedido
         } else {
             alert('Email ou senha incorretos!');
         }
